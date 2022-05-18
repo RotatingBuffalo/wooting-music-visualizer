@@ -1,0 +1,15 @@
+
+[general]
+bars = 21
+framerate = 60
+sensitivity = 50
+[input]
+method = fifo
+source = /tmp/cava.fifo
+sample_rate = 48000
+[output]
+method = raw
+raw_target = "/dev/stdout"
+bit_format = "16bit"
+[smoothing]
+integral = 35
